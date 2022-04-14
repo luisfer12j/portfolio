@@ -151,3 +151,42 @@
 .skills-back{
     width: 50%;
 }
+
+
+@media only screen and (max-width: 900px) {
+    .projects{
+        width: 100%;
+        height: auto;
+    }
+
+    .skills{
+        width: 100vw;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 550px) {
+    .skills--container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills-front{
+        width: 100%;
+    }    
+
+    .margin{
+        margin-bottom: 50px;
+    }
+        
+}
+
+@media only screen and (max-width: 450px){
+    .project--card{
+        width: 280px;
+    }
+
+    
+}
+

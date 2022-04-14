@@ -55,7 +55,7 @@ const Main = () => {
             :
                 <section className='skills'>
                     <div className='skills--container'>
-                        <div className='skills-front'>
+                        <div className='skills-front margin'>
                             <h2>Frontend Developer</h2>
                             <div className='skills-front--description'>
                                 <i className="fa-solid fa-circle-check"></i>
@@ -93,9 +93,9 @@ const Main = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='skills-back'>
+                        <div className='skills-back margin'>
                             <h2>Backend Developer</h2>
-                                <h3>Comming soon...</h3>
+                                <p>Comming soon...</p>
                         </div>
                     </div>
                 </section>
