@@ -45,8 +45,8 @@ const Main = () => {
                                 <img src="https://recursosmarketing.net/wp-content/uploads/2020/07/recursos-de-marketing-para-tiendas-online.jpg" alt="" />
                                 <div className='hover'>
                                     <p>Web </p>
-                                    <h2>e-commerce(comming soon...)</h2>
-                                    <a className='icon--container' href=''><i className="fa-solid fa-link"></i></a>
+                                    <h2>e-commerce</h2>
+                                    <a className='icon--container' href='https://ecommerce-mf.netlify.app/'><i className="fa-solid fa-link"></i></a>
                                 </div>
                             </li>
                         </ul>
@@ -55,8 +55,8 @@ const Main = () => {
             :
                 <section className='skills'>
                     <div className='skills--container'>
-                        <div className='skills-front margin'>
-                            <h2>Frontend Developer</h2>
+                        <div className='skills-front'>
+                            <h2 className='margin'>Frontend Developer</h2>
                             <div className='skills-front--description'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <div>
@@ -94,8 +94,10 @@ const Main = () => {
                             </div>
                         </div>
                         <div className='skills-back margin'>
-                            <h2>Backend Developer</h2>
+                            <h2 className='margin'>Backend Developer</h2>
+                            <div>
                                 <p>Comming soon...</p>
+                            </div>
                         </div>
                     </div>
                 </section>
