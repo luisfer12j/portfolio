@@ -93,10 +93,42 @@ const Main = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='skills-back margin'>
+                        <div className='skills-front'>
                             <h2 className='margin'>Backend Developer</h2>
-                            <div>
-                                <p>Comming soon...</p>
+                            <div className='skills-front--description'>
+                                <i className="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3>Node JS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </div>
+                            <div className='skills-front--description'>
+                                <i className="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3>Express JS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </div>
+                            <div className='skills-front--description'>
+                                <i className="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3>PostgreSQL</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </div>
+                            <div className='skills-front--description'>
+                                <i className="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3>MySQL</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </div>
+                            <div className='skills-front--description'>
+                                <i className="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3>Rest API</h3>
+                                    <p>Intermediate</p>
+                                </div>
                             </div>
                         </div>
                     </div>

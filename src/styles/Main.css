@@ -30,6 +30,10 @@
     transform-origin: left;
 }
 
+.background:hover{
+    background-color: rgba(255,255,255,1);
+}
+
 .checked{
     transition: 0.3s;
     background-color: rgb(195, 195, 195);
