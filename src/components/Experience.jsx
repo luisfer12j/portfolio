@@ -12,7 +12,7 @@ const Experience = () => {
                 </div>
             </div>
             <div className='buttons--container'>
-                <a href="../document/Curriculum_Luis-Sanchez" download={'../document/Curriculum_Luis-Sanchez'}>
+                <a href="../document/Curriculum_Luis-Sanchez.pdf" download={'../document/Curriculum_Luis-Sanchez.pdf'}>
                 Dowload CV <i className="fa-solid fa-download download"></i>
                 </a>
             </div>
