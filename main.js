@@ -23,7 +23,7 @@ btnLang.addEventListener('click', () => {
     btnLang.classList.toggle('active');
     language.checked = !language.checked;
     if (language.checked == true) {
-        location.href = "src/en/index.html"
+        location.href = "./src/en/index.html"
     } else {
         location.href = "../../index.html"
     }

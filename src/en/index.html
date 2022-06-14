@@ -13,12 +13,12 @@
         <nav class="nav">
             <div class="nav-container">
                 <!-- <h2 class="nav-h2">Luis Sánchez</h2> -->
-                <h2 class="nav-h2">Portfolio</h2>
+                <h2 class="nav-h2"><a href="#main">Portfolio</a></h2>
                 <ul class="nav-ul">
-                    <li class="nav-ul-item">About me</li>
-                    <li class="nav-ul-item">Projects</li>
-                    <li class="nav-ul-item">Skills</li>
-                    <li class="nav-ul-item">Contact</li>
+                    <li class="nav-ul-item"><a href="#about">About me</a></li>
+                    <li class="nav-ul-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-ul-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-ul-item"><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="nav-button-container">
                     <button class="nav-button" id="switch">
@@ -37,89 +37,158 @@
                 </div>
             </div>
         </nav>
-        <main class="main">
+        <main id="main" class="main">
             <div class="main-container">
                 <div class="main-img-container">
-                    <img src="../images/main-photo-mobile-removebg.png" alt="">
+                    <img src="../../src/images/main-photo-mobile-removebg.png" alt="">
                 </div>
                 <h1 class="main-h1">Luis Sanchez</h1>
                 <p class="main-p">Web Developer</p>
+                <div class="main-icon-container">
+                    <a href="https://www.linkedin.com/in/luis-sanchez-298969148/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/luisfer12j"><i class="fa-brands fa-github"></i></a>
+                </div>
             </div>
         </main>
-        <section class="about-section">
+        <section id="about" class="about-section">
             <h2 class="about-section-h2">
                 About me
             </h2>
             <p class="about-section-p">
-                Entusiasta en el aprendizaje en busca de 
-                mi primera experiencia laboral y ganas 
-                de crecer y seguir aprendiendo. Trabajo
-                 en equipo y me adapto a las nuevas tecnologías.
+                I am enthusiastic about learning, looking for my first work experience, 
+                and desire to grow and keep learning. Worked in a team and I adapt to new technologies.
             </p>
+            <div class="download-button">
+                <a href="../../src/documents/document/Curriculum_Luis-Sanchez.pdf" download="CurriculumLuisSanchez.pdf">Download Curriculum <i class="fa-solid fa-download"></i></a>
+            </div>
         </section>
-        <section class="projects-section">
+        <section id="projects" class="projects-section">
             <h2 class="about-section-h2">
                 Projects
             </h2>
-            <article>
-                <div>
-                    <img src="" alt="">
+            <a href="https://ecommerce-mf.netlify.app/">
+                <div class="project-img-container">
+                    <img src="../../src/images/Ecommerce.PNG" alt="">
                 </div>
-                <h3>E-commerce</h3>
-                <p>Esta es una pequeña descripcion del primer proyecto</p>
-            </article>
-            <article>
-                <div>
-                    <img src="" alt="">
+                <div class="project-text-container">
+                    <h3>E-commerce</h3>
+                    <h4>
+                        Technologies
+                    </h4>
+                    <ul>
+                        <li>CSS</li>
+                        <li>React JS</li>
+                        <li>Redux</li>
+                        <li>React Router</li>
+                        <li>Axios</li>
+                        <li>React </li>
+                    </ul>
+                    <p>It is e-commerce that allows us to create a user, log in and buy products.</p>
                 </div>
-                <h3>Proyecto 2</h3>
-                <p>Esta es una pequeña descripcion del primer proyecto</p>
-            </article>
-            <article>
-                <div>
-                    <img src="" alt="">
+            </a>
+            <a href="https://rick-and-morty-simple.netlify.app/">
+                <div class="project-img-container">
+                    <img src="../../src/images/RickAndMorty.PNG" alt="">
                 </div>
-                <h3>Proyecto 3</h3>
-                <p>Esta es una pequeña descripcion del primer proyecto</p>
-            </article>
-            <article>
-                <div>
-                    <img src="" alt="">
+                <div class="project-text-container">
+                    <h3>Rick y Morty App</h3>
+                    <h4>
+                        Technologies
+                    </h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React JS</li>
+                        <li>Axios</li>
+                    </ul>
+                    <p>This is a small page that shows us the characters of the series depending on the location that we enter.</p>
                 </div>
-                <h3>Proyecto 4</h3>
-                <p>Esta es una pequeña descripcion del primer proyecto</p>
-            </article>
+            </a>
+            <a href="https://flamboyant-meninsky-f1a9a6.netlify.app/">
+                <div class="project-img-container">
+                    <img src="../../src/images/WeatherApp.PNG" alt="">
+                </div>
+                <div class="project-text-container">
+                    <h3>Weather App</h3>
+                    <h4>
+                        Technologies
+                    </h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React JS</li>
+                        <li>Axios</li>
+                    </ul>
+                    <p>This application accesses your location to be able to call an API that will return the weather in your area.</p>
+                </div>
+            </a>
+            <a>
+                <div class="project-img-container">
+                    <img src="../../src/images/API.PNG" alt="">
+                </div>
+                <div class="project-text-container">
+                    <h3>API</h3>
+                    <h4>
+                        Technologies
+                    </h4>
+                    <ul>
+                        <li>Node JS</li>
+                        <li>Express</li>
+                        <li>Sequelize</li>
+                        <li>PostgreSQL</li>
+                        <li>JWT</li>
+                    </ul>
+                    <p>This API allows us to create users and store them in a database, 
+                        in the same way, they can create products to put on sale. 
+                        To buy, create products and delete products you must log in.</p>
+                </div>
+            </a>
         </section>
-        <section class="skills-section">
+        <section id="skills" class="skills-section">
             <h2 class="skills-section-h2">
                 Skills
             </h2>
-            <ul>
-                <h3>FrontEnd</h3>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React JS</li>
-                <li>...</li>
-            </ul>
-            <ul>
-                <h3>BackEnd</h3>
-                <li>Node JS</li>
-                <li>Express</li>
-                <li>PostgreSQL</li>
-                <li>MySQL</li>
-            </ul>
-            <ul>
-                <h3>Generales</h3>
-                <li>GitHub</li>
-                <li>English B1 Preliminary</li>
-                <li>Spanish native</li>
-            </ul>
+            <div class="skills-container">
+                <ul class="skills-list">
+                    <h3>FrontEnd</h3>
+                    <li>HTML <i class="fa-brands fa-html5"></i></li>
+                    <li>CSS <i class="fa-brands fa-css3-alt"></i></li>
+                    <li>JavaScript <i class="fa-brands fa-js-square"></i></li>
+                    <li>React JS <i class="fa-brands fa-react"></i></li>
+                </ul>
+                <ul class="skills-list">
+                    <h3>BackEnd</h3>
+                    <li>Node JS <i class="fa-brands fa-node-js"></i></li>
+                    <li>Express</li>
+                    <li>PostgreSQL</li>
+                    <li>MySQL</li>
+                </ul>
+                <ul class="skills-list">
+                    <h3>Generals</h3>
+                    <li>Git <i class="fa-brands fa-git-alt"></i></li>
+                    <li>GitHub <i class="fa-brands fa-github"></i></li>
+                    <li>Inglés B1 Preliminary</li>
+                </ul>
+            </div>
         </section>
-        <section class="contact-section">
+        <section id="contact" class="contact-section">
             <h2 class="contact-section-h2">
                 Contact
             </h2>
+            <div class="contact-container">
+                <article>
+                    <p><i class="fa-solid fa-phone"></i> (+593) 9692 95174</p>
+                </article>
+                <article>
+                    <p><i class="fa-solid fa-at"></i> luisfer-1299@hotmail.es</p>
+                </article>
+                <article>
+                    <a href="https://www.linkedin.com/in/luis-sanchez-298969148/"><i class="fa-brands fa-linkedin"></i> Luis Sanchez</a>
+                </article>
+                <article>
+                    <a href="https://github.com/luisfer12j"><i class="fa-brands fa-github"></i> luisfer12j</a>
+                </article>
+            </div>
         </section>
     </div>
     <footer class="footer">
