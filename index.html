@@ -10,11 +10,11 @@
 </head>
 <body>
     <div class="page-container">
-        <nav class="nav">
+        <nav id="nav" class="nav">
             <div class="nav-container">
                 <!-- <h2 class="nav-h2">Luis Sánchez</h2> -->
                 <h2 class="nav-h2"><a href="#main">Portafolio</a></h2>
-                <ul class="nav-ul">
+                <ul id="nav-ul" class="nav-ul">
                     <li class="nav-ul-item"><a href="#about">Sobre mí</a></li>
                     <li class="nav-ul-item"><a href="#projects">Proyectos</a></li>
                     <li class="nav-ul-item"><a href="#skills">Habilidades</a></li>
@@ -34,6 +34,12 @@
                         <div class="button-ball"></div>
                         <input type="checkbox" id="language">
                     </button>
+                </div>
+                <div class="nav-mobile">
+                    <label for="menu">
+                        <i for="menu" class="fa-solid fa-bars"></i>    
+                    </label>
+                    <input id="menu" name="menu" type="checkbox">
                 </div>
             </div>
         </nav>

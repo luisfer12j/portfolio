@@ -67,7 +67,7 @@ h3{
 
 .nav-container{
     /* max-width: 1000px; */
-    min-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -172,6 +172,15 @@ h3{
 .active{
     background-color: var(--medium-yellow);
 }
+
+.nav-mobile{
+    display: none;
+}
+
+.nav-mobile input{
+    display: none;
+}
+
 
 /* ------------------
 --------MAIN--------- 
@@ -330,6 +339,8 @@ h3{
     margin-bottom: 20px;
     justify-content: space-between;
     padding-right: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .project-text-container p{
@@ -407,10 +418,130 @@ h3{
     box-shadow: 2px -2px 8px rgba(0,0,0,.3);
 }
 
+/* ------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+-----------------------------------MEDIA-QUERY-----------------------------------------
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 900px) and (max-width: 1200px) { 
+    .nav-container{
+        width: 100%;
+    }
+}
 
+@media screen and (min-width: 800px) and (max-width: 899px) { 
+    .page-container{
+        width: 90%;
+        margin: 0 auto;
+    }
 
+}
 
+@media screen and (min-width: 300px) and (max-width: 799px) { 
+    .page-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .nav h2{
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .nav-ul{
+        display: none;
+    }
+
+    .nav-mobile{
+        display: flex;
+        font-size: 30px;
+    }
+
+    .nav-container{
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .show{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .show .nav-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    .show .nav-container h2{
+        padding: 30px 0;
+    }
+
+    .show ul{
+        display: unset;
+    }
+
+    .main-img-container{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .main-h1{
+        font-size: 40px;
+    }
+
+    .main-p{
+        font-size: 20px;
+    }
+
+    .download-button{
+        width: 80%;
+        padding: 0 10px;
+    }
+
+    .download-button a{
+        font-size: 14px;
+    }
+
+    .skills-container{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .skills-container ul{
+        min-width: 50%;
+        text-align:  center;
+    }
+
+    .projects-section a{
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .project-img-container{
+        width: 100%;
+    }
+    
+    .project-text-container{
+        width: 100%;
+    }
+}
 
 /* ------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
@@ -418,7 +549,7 @@ h3{
 -----------------------------------DARK-MODE-------------------------------------------
 ---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------*/
+-------------------------------------------------------------------------------------*/
 
 
 .dark{

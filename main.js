@@ -1,11 +1,20 @@
 const btnSwitch = document.querySelector('#switch');
 const btnLang = document.querySelector('#languageBtn');
 const language = document.querySelector('#language');
+const btnMenu = document.querySelector('#menu');
+const nav = document.querySelector('#nav');
+
 
 if (localStorage.getItem('mode') == 'dark') {
     document.body.classList.toggle('dark');
     btnSwitch.classList.toggle('active');
 }
+
+
+btnMenu.addEventListener('click', () => {
+    console.log(btnMenu.checked);
+    nav.classList.toggle('show');
+})
 
 
 btnSwitch.addEventListener('click', () => {
