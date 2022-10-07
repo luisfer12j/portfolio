@@ -38,7 +38,5 @@ btnLang.addEventListener('click', () => {
     }
 })
 
-// language.addEventListener('click', () => {
-//     console.log(language.checked)
-// })
+
 
